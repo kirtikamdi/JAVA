@@ -1,0 +1,17 @@
+package icoer.com;
+
+public class kk {
+
+	public static void main(String[] args) {
+		int a= -10;
+		if (a>1) {
+			System.out.println("print no is positive");
+		}
+		else {
+			System.out.println("print no is negative");
+		}
+				
+
+	}
+
+}
