@@ -1,0 +1,57 @@
+package icoer.com;
+import java.util.Scanner;
+
+public class ToPrint12MonthsOfYear {
+
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		System.out.println("enter no");
+		int Monthno;
+		Monthno =sc.nextInt();
+		
+		switch(Monthno){
+		case 1:
+			System.out.println("month of: January");
+			break;
+		case 2:
+			System.out.println("month of: february");
+			break;
+		case 3:
+			System.out.println("month of: march");
+			break;
+		case 4:
+			System.out.println("month of: april");
+			break;
+		case 5:
+			System.out.println("month of: may");
+			break;
+		case 6:
+			System.out.println("month of: June");
+			break;
+		case 7:
+			System.out.println("month of: july");
+			break;
+		case 8:
+			System.out.println("month of: august");
+			break;
+		case 9:
+			System.out.println("month of: september");
+			break;
+		case 10:
+			System.out.println("month of: october");
+			break;
+		case 11:
+			System.out.println("month of: november");
+			break;
+		case 12:
+			System.out.println("month of: december");
+			break;
+		default:
+			System.out.println("invalid");
+			break;
+		
+		
+		}
+	}
+
+}
