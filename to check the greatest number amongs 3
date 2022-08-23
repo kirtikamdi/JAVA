@@ -1,0 +1,21 @@
+package icoer.com;
+
+public class GreaterNoAmongs3 {
+
+	public static void main(String[] args) {
+		int a=50;
+		int b=60;
+		int c=30;
+		if(a>b && b>c) {
+			System.out.println("a");
+		}
+		else if(b>a && b>c){
+			System.out.println("b");
+		}
+		else{
+			System.out.println("c");
+		}
+		
+	}
+
+}
