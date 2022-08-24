@@ -1,0 +1,11 @@
+package icoer.com;
+
+public class SubstringInString {
+
+	public static void main(String[] args) {
+		String str= "kirti";
+		System.out.println(str.contains("ir"));
+
+	}
+
+}
