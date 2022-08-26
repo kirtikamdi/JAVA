@@ -1,0 +1,17 @@
+package icoer.com;
+class employee{
+	int sal=50000;
+}
+public class DemonstrateInheritance extends employee {
+	int bonus=20000;
+
+	public static void main(String[] args) {
+		DemonstrateInheritance obj = new DemonstrateInheritance();
+		System.out.println("sallery is " + obj.sal);
+		System.out.println("bonus is " + obj.bonus);
+		
+		
+
+	}
+
+}
