@@ -1,0 +1,19 @@
+package icoer.com;
+
+public class positiveORnegativeNo {
+
+	public static void main(String[] args) {
+		int num = -5;
+			if(num>0) {
+				System.out.println("number is positive " + num);
+			}
+			else if (num<0) {
+				System.out.println("number is negative " + num);
+			}
+			else {
+				System.out.println("number is zero ");
+			}
+
+	}
+
+}
