@@ -1,0 +1,33 @@
+package icoer.com;
+
+import java.util.Scanner;
+
+public class Calculator {
+
+	public static void main(String[] args) {
+		int ans;
+		System.out.println("enter two values");
+		
+		Scanner sc= new Scanner(System.in);
+		int a= sc.nextInt();
+		int b= sc.nextInt();
+		System.out.println("enter operator");
+		char op =sc.next().charAt(0);
+		if (op == '+') {
+			ans= a+b;
+			System.out.println("addition of two numbers :" + ans);
+			}
+		else if(op =='-') {
+			ans= a-b;
+			System.out.println("subtraction of two numbers :" + ans);
+			}
+		else if(op =='*') {
+			ans= a*b;
+			System.out.println("multiplication of two numbers :" + ans);
+		    }
+		else if(op =='/') {
+			ans= a/b;
+			System.out.println("division of two numbers :" + ans);
+		    }
+	}
+}
